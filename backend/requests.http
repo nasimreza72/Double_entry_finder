@@ -1,0 +1,13 @@
+POST http://localhost:3001/
+Content-Type: application/json
+
+###
+GET  http://localhost:3001/api/people/
+
+
+### Login
+POST http://localhost:3001/api/url/
+Content-Type: application/json
+
+{ "url": "www.instagram.com/cilia5"}
+
