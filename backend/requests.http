@@ -2,12 +2,11 @@ POST http://localhost:3001/
 Content-Type: application/json
 
 ###
-GET  http://localhost:3001/api/people/
-
+GET https://staging31.henrikk.sg-host.com/two/en/wp-json/wc/v3/orders?consumer_key=ck_b51b515df3f1dad1e258662058d23e36d856f673&consumer_secret=cs_17ca613d0bb25fcd36852fb305a4e14925c2be08
 
 ### Login
 POST http://localhost:3001/api/url/
 Content-Type: application/json
 
-{ "url": "www.instagram.com/cilia5"}
+{ "url": "www.instagram.com/cilia11"}
 
