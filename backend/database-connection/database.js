@@ -2,6 +2,7 @@ import mongoose from "mongoose"
 
 export function connect() {
     // const { DB_USER, DB_PASS, DB_HOST, DB_NAME } = process.env
+    // const { DB_USER, DB_PASS, DB_HOST, DB_NAME } = process.env
     const connStr = `mongodb+srv://nasim:(password)@cluster0.lrlld.mongodb.net/?retryWrites=true&w=majority`
 
     // Mongoose connection events
