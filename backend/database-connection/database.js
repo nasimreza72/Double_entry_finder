@@ -5,7 +5,7 @@ export function connect() {
     // add mongoDB password to connect and sometimes it's need to update the IP addresse in MongoDb
     const connStr = `mongodb+srv://nasim:(password)@cluster0.lrlld.mongodb.net/?retryWrites=true&w=majority`
 
-    // Mongoose connection events
+    // Mongoose connection events.
     const { connection } = mongoose
     connection.on("connecting",      () => console.log("[DB] connecting"))
     connection.on("connected",       () => console.log("[DB] connected"))
